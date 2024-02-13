@@ -48,7 +48,7 @@ export function App() {
 
     localStorage.setItem('notes', JSON.stringify(notesArray))
 
-    toast.success('Nota deletada com sucesso!')
+    toast.success('Nota apagada com sucesso!')
   }
 
   function handleSearch(event: ChangeEvent<HTMLInputElement>){
