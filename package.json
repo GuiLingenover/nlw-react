@@ -3,15 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://guilingenover.github.io/nlw-react/",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "vite -d build",
-    "start": "vite start",
-    "build": "vite build",
-    "test": "vite test",
-    "eject": "vite eject",
     "dev": "vite",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
